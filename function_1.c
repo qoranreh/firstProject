@@ -7,6 +7,7 @@ int main(void){
     int p;
     p= Prime(N,M);
     printf("%d",p);
+    printf("code run");
     return 0;
 }
 
@@ -30,5 +31,6 @@ int Prime(int n,int m){
         //2부터 자기자신-1 했을때 나머지가 0이 아님. 
 
     }
+    
     return a;
 }
